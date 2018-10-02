@@ -58,8 +58,8 @@ p {
 }
 
 span {
-  font-size: 25px;
-  margin: 0px;
+  font-size: 23px;
+  margin: 0px 2px auto;
   padding: 5px;
 }
 
@@ -186,11 +186,6 @@ img {
   height: 50px;
   background-repeat: no-repeat;
   background-image: url("../images/1f3e4.png");
-}
-
-#test1:hover {
-  background-color: #FB8C00;
-  border-radius: 50%;
 }
 
 .placeicon {
