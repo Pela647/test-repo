@@ -1,10 +1,17 @@
 angular.module('myApp', [])
   .controller('myController', function ($scope) {
     $scope.searchText = '';
-    $scope.selectedEmoji = '';
     $scope.checkDiv = function () {
       return true;
     };
+    $scope.selected = function () {
+      $scope.selectedEmoji = this.emoji.code;
+      $scope.selectedName = this.emoji.name;
+    }
+    $scope.notSelected = function () {
+      $scope.selectedEmoji = '';
+      $scope.selectedName = '';
+    }
     console.log($scope.searchText);
 
 
