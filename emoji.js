@@ -1,5 +1,5 @@
-angular.module('myApp', [])
-  .controller('myController', function ($scope) {
+angular.module('emoji', [])
+  .controller('emojiController', function ($scope) {
     $scope.searchText = '';
     $scope.checkDiv = function () {
       return true;
@@ -17,32 +17,32 @@ angular.module('myApp', [])
 
     $scope.people = [{
       title: "People",
-      name: "laugh-cry",
-      code: String.fromCodePoint(0x1f602)
+      name: "waving hand",
+      code: String.fromCodePoint(0x1f44b)
     }, {
-      name: "laugh-eye",
-      code: String.fromCodePoint(0x1f604)
+      name: "thumbs up",
+      code: String.fromCodePoint(0x1f44d)
     }, {
-      name: "laugh-smile",
-      code: String.fromCodePoint(0x1f603)
+      name: "baby",
+      code: String.fromCodePoint(0x1f476)
     }, {
-      name: "glasses",
-      code: String.fromCodePoint(0x1f9d0)
+      name: "man: beard",
+      code: String.fromCodePoint(0x1f9d4)
     }, {
-      name: "laugh-widetheeth",
-      code: String.fromCodePoint(0x1f600)
+      name: "woman",
+      code: String.fromCodePoint(0x1f469)
     }, {
-      name: "laugh-cry",
-      code: String.fromCodePoint(0x1f601)
+      name: "old man",
+      code: String.fromCodePoint(0x1f474)
     }, {
-      name: "g",
-      code: String.fromCodePoint(0x1f606)
+      name: "construction worker",
+      code: String.fromCodePoint(0x1f477)
     }, {
-      name: "dd",
-      code: String.fromCodePoint(0x1f605)
+      name: "prince",
+      code: String.fromCodePoint(0x1f934)
     }, {
-      name: "ff",
-      code: String.fromCodePoint(0x1f923)
+      name: "man in tuxedo",
+      code: String.fromCodePoint(0x1f935)
     }];
 
     $scope.nature = [{
